@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RetroLab | QA Testing & Gestión Profesional</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #e67e22; --secondary: #2c3e50; --success: #1dbf73; --bg: #f4f7f6; }
+        body { font-family: 'Inter', sans-serif; background: var(--bg); margin: 0; color: #333; line-height: 1.6; }
+        
+        /* Header Impactante */
+        header { background: var(--secondary); color: white; padding: 80px 20px; text-align: center; position: relative; overflow: hidden; }
+        header h1 { font-size: 3rem; margin: 0; letter-spacing: -1px; }
+        header p { font-size: 1.2rem; opacity: 0.9; max-width: 600px; margin: 10px auto 25px; }
+        
+        .fiverr-badge { 
+            background: var(--success); color: white; padding: 12px 25px; border-radius: 50px; 
+            text-decoration: none; font-weight: bold; display: inline-block; transition: transform 0.2s;
+        }
+        .fiverr-badge:hover { transform: scale(1.05); }
+
+        /* El Feed de Posts */
+        .feed { max-width: 750px; margin: -50px auto 50px; padding: 0 20px; position: relative; z-index: 10; }
+        
+        .post { background: white; border-radius: 15px; padding: 30px; margin-bottom: 30px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid #eee; }
+        .post-tag { background: #eee; color: #666; padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; }
+        .post h2 { margin: 15px 0 10px; font-size: 1.6rem; color: var(--secondary); }
+        
+        /* Contenedor para GIF/Video */
+        .media-placeholder { 
+            background: #000; width: 100%; border-radius: 10px; margin: 20px 0; 
+            min-height: 300px; display: flex; align-items: center; justify-content: center; color: #555;
+            overflow: hidden;
+        }
+        .media-placeholder img { width: 100%; height: auto; display: block; }
+
+        .btn-detail { border: 2px solid var(--primary); color: var(--primary); background: none; padding: 10px 20px; border-radius: 8px; cursor: pointer; font-weight: bold; transition: 0.3s; }
+        .btn-detail:hover { background: var(--primary); color: white; }
+
+        footer { text-align: center; padding: 40px; color: #888; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>RetroLab 🧪</h1>
+    <p>Administración aplicada al QA Testing. Transformo bugs en experiencias jugables memorables.</p>
+    <a href="TU_LINK_DE_FIVERR" target="_blank" class="fiverr-badge">⭐ Perfil Verificado: 5 Estrellas en Fiverr</a>
+</header>
+
+<div class="feed">
+
+    <article class="post">
+        <span class="post-tag">En el Laboratorio</span>
+        <h2>Cacería de Bugs: Mi flujo de trabajo</h2>
+        <p>No solo juego; analizo la lógica y la inmersión. Aquí puedes ver un bucle de cómo realizo las pruebas de estrés en entornos indie.</p>
+        
+        <div class="media-placeholder">
+            <img src="https://via.placeholder.com/700x400?text=Sube+aquí+tu+GIF+de+Gameplay" alt="Gameplay Testing">
+        </div>
+        
+        <p>Mi enfoque administrativo me permite entregar reportes estructurados que ahorran horas de corrección a los desarrolladores.</p>
+    </article>
+
+    <article class="post">
+        <span class="post-tag">Gestión & Comunicación</span>
+        <h2>Notas de Parche: Profesionalismo para tu Comunidad</h2>
+        <p>Un error común es no saber comunicar los cambios. Yo gestiono tus parches y comunicados para que el jugador se sienta escuchado.</p>
+        <div style="background: #f9f9f9; padding: 20px; border-left: 5px solid var(--primary); font-style: italic; margin: 15px 0;">
+            "Gracias a la gestión de RetroLab, el feedback de nuestra comunidad ha mejorado un 40%..."
+        </div>
+        <button class="btn-detail">Ver ejemplo de reporte</button>
+    </article>
+
+</div>
+
+<footer>
+    &copy; 2026 RetroLab - Barquisimeto, Venezuela. <br>
+    TSU en Administración | QA Game Tester.
+</footer>
+
+</body>
+</html>
